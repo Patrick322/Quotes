@@ -1,11 +1,10 @@
-<h1>Wise quotes</h1>
+<h1>Wise quote</h1>
+<hr>
 <ul>
-    <div *ngFor='let quote of quote;let i = index'>
-        <li appStrikethrough>{{quote.name}}</li>
-        <button  (click)='toggleDetails(i)'>Toggle Details</button>
-
-    <app-quote-detail *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-detail>
-    
-    </div>
+  <div *ngFor='let quote of quotes;let i = index'>
+    <li>{{quote.name}}</li>
+    <button (click)='toggleDetails(i)'>Toggle Details</button>
+    <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail>
+  </div>
 </ul>
 <p *ngIf='quotes.length > 5'>You have too many quotes</p>
