@@ -4,7 +4,6 @@ import { Directive } from '@angular/core';
   selector: '[appStrikethrough]'
 })
 export class StrikethroughDirective {
-
-  constructor() { }
+  constructor(){}
 
 }
