@@ -22,6 +22,7 @@ export class QuoteComponent implements OnInit {
       this.quotes.splice(index,1);
     }
   }
+  
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
