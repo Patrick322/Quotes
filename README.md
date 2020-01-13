@@ -1,27 +1,45 @@
-# Quotes
+## Quote application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+## Author
 
-## Development server
+Buong Patrick
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Description
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## setup/installtion Requirement
 
-## Build
+Open Terminal {Ctrl+Alt+T}
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+git clone https://github.com/Patrick322/quote.git
 
-## Running unit tests
+cd quote
+code . or atom . depending on the text editor of your choice.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Known Bugs
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The website is working okay but we are looking forward to expand it  globally
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contacts details
+If there is any addition or further clarrification please contact me:
+tel:+254797239875
+Email:patrickbuong@gmail.com
+
+## Behaviour Driven Development(BDD)
+
+
+## codebeat
+
+
+
+
+## Livelink
+
+ 
+
+
+## Licence
+
+licenced under the[MIT licence](LICENCED)
