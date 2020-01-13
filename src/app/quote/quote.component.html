@@ -1,12 +1,12 @@
 <div class="container">
-  <h1>Wise quotes</h1>
+  <h1>WISE QUOTES</h1>
   <hr>
 
   <div class="row">
     <div class="col-md-6">
       <div *ngFor='let quote of quotes;let i = index'>
         <div>
-          <h4 id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h4>
+          <h6 id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h6>
           <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
         </div>
 
@@ -14,6 +14,9 @@
           <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
         </div>
       </div>
+    </div>
+    <div class="col-md-6">
+      <app-quote-form>(addQuote)="addNewQuote($event)</app-quote-form>
     </div>
   </div>
 

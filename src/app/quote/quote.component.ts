@@ -16,6 +16,15 @@ export class QuoteComponent implements OnInit {
     new Quote(5,'Solve math homework','Damn Math',new Date(2019,2,14)),
     new Quote(6,'Plot my world domination plan','Cause I am an evil overlord',new Date(2030,3,14)),
   ];
+  
+  addNewQuote(quote){
+    let goalLength = this.quotes.length;
+    quote.id = goalLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
+
+
 
   completeQuote(isComplete, index){
     if (isComplete) {
